@@ -1,0 +1,13 @@
+type Fantoken @entity {
+  id: ID!
+  symbol: String!
+  name: String!
+  supply: BigInt!
+  maxSupply: BigInt!
+  authority: String
+  minter: String
+  uri: String
+  blockHeight: BigInt!
+  txHash: String!
+  createdAt: Date!
+}
